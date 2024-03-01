@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f1fa3;
+  background-image: url('./components/content/backg.png');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif; /* Example font-family */
+  color: #333; /* Example text color */
+}
+
+.footertext a {
+  display: inline-block;
+  left: 50%; 
+  text-decoration: none;
+  margin: 20px;
+  color: #f6f6f6; 
+}
+
+.footertext a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: blue;
+}
