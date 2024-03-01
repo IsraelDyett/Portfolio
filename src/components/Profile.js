@@ -16,8 +16,7 @@ const Profile = () => {
       </div>
       <div className="bio-container">
         <p className="bio">
-          Results-driven Tech Professional with expertise in Java, C# ASP.NET, and front-end technologies like
-          React. Proven ability in full-stack development, database design, and problem-solving abilities.
+        I am a results-driven Tech Professional with a diverse skill set. I have expertise in full-stack development, database design, and problem-solving. I am proficiency in Java Object-Oriented Design Patterns, Spring Framework, C#, ASP.NET,  React, React Native, and SQL which equips me to efficiently manage business operations and enhance user interactions through web-based applications. With a keen eye for detail and a commitment to continuous improvement, I excel in delivering innovative solutions and driving organizational success.
         </p>
       </div>
     </div>

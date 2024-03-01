@@ -51,6 +51,9 @@
   }
   
   .project-info p {
-    margin-bottom: 0;
+    margin-bottom: 4px;
   }
   
+  .project-info a {
+    margin-top: 4px;
+  }
