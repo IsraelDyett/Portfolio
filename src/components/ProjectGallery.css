@@ -1,20 +1,20 @@
 /* ProjectGallery.css */
+
 .project-gallery {
   padding: 20px;
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   margin: 20px;
-
 }
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid with minimum column width */
   grid-gap: 20px;
   max-width: 1200px; /* Adjust as needed */
   width: 100%;
-  margin: 45px;
+  margin: 45px auto; /* Center the grid horizontally */
 }
 
 .project-card {
@@ -44,22 +44,24 @@
 
 h2 {
   text-transform: uppercase;
-  
 }
+
 .projectHeader {
-  justify-content: center;
-  align-items: center;
-  width: 25%;
+  text-align: center;
   color: white;
   text-transform: uppercase;
   padding: 5px;
-  border: 2px solid white;  
-  position: absolute; /* Set position to absolute */
-  left: 50%; /* Align the left of the element to the middle of the viewport */
-  transform: translate(-50%, -50%); 
-  margin: 20px;
+  border: 2px solid white;
+  margin: 20px auto;
+  width: fit-content;
 }
 
 .project-info p {
   margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
+  }
 }

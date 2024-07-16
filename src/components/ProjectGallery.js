@@ -5,6 +5,9 @@ import './ProjectGallery.css'; // Import your CSS file for styling
 import jqi from "./content/jqi.png"
 import bms from "./content/bms.png"
 import wp from "./content/wp.png"
+import zoho from "./content/zohoDiagram.png"
+import chatbot from "./content/chatbotdiagram.png"
+import PromoConnect from "./content/promoConnect.png"
 
 const ProjectGallery = () => {
   // Define project data
@@ -15,6 +18,27 @@ const ProjectGallery = () => {
       url: "https://example.com/project1",
       link: "https://github.com/IsraelDyett/BudgetManager",
       image: bms
+    },
+    {
+      title: "Promoconnet: A Comprehensive SaaS Platform Showcasing Full-Stack Development Mastery",
+      description: "Promoconnet is a sophisticated SaaS application I developed using the MERN stack, showcasing my expertise in full-stack development and the MVC design pattern. The platform enables users to post images and videos, build comprehensive profiles and portfolios, and engage with company-posted events by liking, commenting, and applying. Company users can efficiently manage event applications, accepting or rejecting them as needed. This project demonstrates my expertise in developing interactive, user-centric web applications, integrating multiple functionalities, and leveraging technologies like React, Node.js, Express, and MongoDB. My experience with Promoconnet highlights my ability to create scalable, feature-rich applications that meet diverse user needs and business objectives While this project is nearing a close, I still find it necessary to continuously refine and optimize Promoconnet to ensure it meets the highest standards of performance and user experience. This ongoing process involves integrating user feedback, enhancing existing features, and exploring new technologies to keep the application relevant and competitive. My commitment to iterative development and continuous improvement underscores my dedication to delivering top-quality software solutions that align with evolving user needs and industry trends.",
+      url: "https://promo-connect-client.vercel.app/",
+      link: "https://github.com/IsraelDyett/PromoConnect",
+      image: PromoConnect
+    },
+    {
+      title: "Zoho Inventory Management Automation",
+      description: "Transforming business efficiency through advanced automation, I engineered a seamless solution to synchronize data from Google Sheets to Zoho Inventory. Leveraging Python, I meticulously crafted a system for accurate data conversion and real-time updates. Automated email notifications to clients ensured timely updates. By integrating the Zoho Inventory API, I streamlined operations, enhancing inventory management with precision and effectiveness.",
+      url: "https://github.com/IsraelDyett/Zoho-Inventory-Management-Automation",
+      link: "https://github.com/IsraelDyett/Zoho-Inventory-Management-Automation",
+      image: zoho
+    },
+    {
+      title: "GooglePlatform Dialogflow Custom Integration",
+      description: "I designed and deployed a sophisticated AI chatbot leveraging Dialogflow, accessible across WhatsApp, Facebook, email, and websites. By integrating seamlessly with CRM, inventory, and database systems via APIs and webhooks, I ensured efficient data flow and automation. Utilizing Google Cloud Platform and Node.js, I achieved scalable and robust performance, enhancing user engagement through intelligent automation and real-time data synchronization. This project exemplifies my ability to deliver integrated solutions that optimize business processes and drive impactful user interactions.",
+      url: "https://github.com/IsraelDyett/GooglePlatform-Dialogflow-Custom-Integration",
+      link: "https://github.com/IsraelDyett/GooglePlatform-Dialogflow-Custom-Integration",
+      image: chatbot
     },
     {
       title: "Email Ordering Solution",
@@ -30,6 +54,7 @@ const ProjectGallery = () => {
       link: "https://github.com/IsraelDyett/massystoresWelcomePage",
       image: wp
     },
+    
   ];
 
   return (
