@@ -9,7 +9,7 @@ const ChatWidget = () => {
   const [inputMessage, setInputMessage] = useState('');
   const [ipAddress, setIpAddress] = useState('');
   const [showPrompts, setShowPrompts] = useState(true);  // Controls visibility of prompts
-  const prompts = ['How can I assist you?', 'Do you need help with something?'];
+  const prompts = ['Can you tell me about yourself?', 'What are your strengths and weaknesses?'];
 
   useEffect(() => {
     // Automatically open chat widget after 5 seconds
