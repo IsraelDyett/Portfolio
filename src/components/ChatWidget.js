@@ -38,7 +38,7 @@ const ChatWidget = () => {
 
     // Send the message and IP address to the endpoint
     try {
-      const response = await axios.post('https://chatbot-server-544800257624.us-central1.run.app', {
+      const response = await axios.post('https://chatbot-server-544800257624.us-central1.run.app/wordPress', {
         message: message,
         sessionId: ipAddress,
       });
