@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Ma
 import Profile from './components/Profile';
 import ProjectGallery from './components/ProjectGallery';
 import './App.css';
+import ChatWidget from'./components/ChatWidget';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <a href="https://github.com/IsraelDyett">GitHub</a>
           </p>
         </div>
+        <ChatWidget />
       </div>
     </Router>
   );
