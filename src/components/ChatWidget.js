@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import profilePic from './content/profilepic.jpeg';
+
 
 const ChatWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -81,7 +83,7 @@ const ChatWidget = () => {
             <div style={styles.headerContent}>
               {/* Circular image in the header */}
               <img
-                src="https://israeldyett.github.io/Portfolio/static/media/profilepic.7de2989c839af2a6d105.jpeg" // Replace with your image URL
+                src={profilePic} // Replace with your image URL
                 alt="User Avatar"
                 style={styles.headerImage}
               />
